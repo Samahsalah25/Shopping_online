@@ -1,0 +1,298 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+   
+    
+}
+:root{
+    -backcolrnav:#F5F5F5;
+
+}
+.Home{
+    position: relative;
+    flex-direction: column;
+ 
+}
+.Navbar{
+    position: relative;
+    flex-direction: row;
+    padding: 10px;
+    height: 40px;
+    background-color: var(-backcolrnav);
+}
+.logo{
+   
+    position: absolute;
+    width: 54.55px;
+    height: 52px;
+    left: 30px;
+    top: 21px;
+}
+.logo2{
+    position: absolute;
+    width: 254px;
+    height: 40px;
+    left: 114.55px;
+    top: 27px;
+   
+    
+    color: #FE8A00;
+}
+.Vector{
+position: absolute;
+left: 93.83%;
+right: 20.83%;
+top:27px;
+bottom: 16.67%;
+}
+.Vector:hover{
+    cursor: pointer;
+}
+
+.product{
+    position: absolute;
+    flex-direction: column;
+   
+}
+.pro{
+    position: absolute;
+width: 368px;
+height: 59px;
+left: 536px;
+top: 94.01px;
+font-size: 25px;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+color: rgba(0, 0, 0, 0.75)
+}
+.data{
+
+    position: relative;
+   display: grid;
+   grid-template-columns:repeat(4, 1fr);
+   grid-template-rows: repeat(3,1fr);
+   gap: 30px;
+   padding: 55px;
+   top:110px;
+}
+.d1{
+    perspective: 20%;
+   grid-template-rows: 70% 30%;
+}
+.imd{
+  
+width: 320px;
+height: 320px;
+
+border-radius: 16px;
+}
+.imd:hover{
+  
+    transform:  translate(10px,10px);
+}
+.heart:hover{
+    color: #F61B5A;
+    cursor: pointer;
+
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.a{
+   font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: 'Outfit';
+font-style: normal;
+
+} 
+.a div{
+    font-weight: bold;
+}
+.b{
+    color: rgba(0, 0, 0, 0.5);
+}
+.em{
+    position: relative;
+}
+.h{
+   position: absolute;
+    width: 42px;
+    height: 42px;
+    top:25px;
+    left: 260px;
+    background: #FFFFFF;    
+    border-radius: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+width: 14px;
+height: 13px;
+}
+.see{
+    padding-bottom:  15px;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    top: 1484.06px;
+    font-size: 22px;
+color: #F61B5A;
+}
+a{
+    text-decoration: none;
+    color: #F61B5A;;
+}
+
+@media (max-width:767px) {
+  
+    .logo{
+       
+        position: absolute;
+        width: 30.55px;
+        height: 35px;
+        left: 20px;
+        top: 21px;
+    }
+    .logo2{
+        position: absolute;
+        width: 150px;
+        height: 30px;
+        left: 65.55px;
+        top: 27px;
+       
+        
+        color: #FE8A00;
+    }
+   
+    .Vector{
+   
+    left: 85.83%;
+    right: 20.83%;
+    top:25px;
+    bottom: 16.67%;
+    }
+    .product{
+        width: 100%;
+    }
+    .pro{
+        width: 150px;
+        height: 40px;
+        left: 150px;
+        left: 150px;
+        padding-bottom: 20px;
+     top: 40px;
+        font-size: 30px;
+      
+
+    }
+    .iconbanner{
+                 
+        width: 20.38px;
+        height: 30.89px;
+        left: 10.01px;
+        }
+   
+    .data{
+        padding-top: 40px;
+        padding: 25px;
+        justify-content: center;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 15px;
+
+    
+    }
+    .imd{
+        height: 200px;
+        width: 180px;
+    }
+   
+    .a{
+        font-size: 18px;
+        font-weight: 300px;
+        display: flex;
+       
+    }
+    .h{
+                        
+        left: 130px;
+      top: 20px;
+    }
+    .b{
+        font-size: 16px;
+    }
+
+    }
+    @media (min-width:768px)and (max-width:1023px) {
+        .banner{
+            width: 100%;
+        }
+     
+        .data{
+            padding: 25px;
+            justify-content: center;
+        grid-template-columns:repeat(3, 1fr);
+        gap: 10px;
+        width: 90%;
+        }
+        .pro{
+         left: 190px;
+         padding-bottom: 20px;
+         top: 80.01px;
+       
+        }
+            .imd{
+                height: 250px;
+                width: 200px;
+            }
+           
+                .iconbanner{
+                 
+                width: 25.38px;
+                height: 50.89px;
+                left: 10.01px;
+                }
+                .p1{
+                   
+                width: 400.91px;
+                height: 101.11px;
+                left: 200.52px;
+                }
+                .img2{
+                width: 200px;
+                }
+                .img1{
+                    width: 190px;
+                    }
+                    .a{
+                        font-size: 25px;
+                        font-weight: bold;
+                        padding: 5px;
+                     
+
+                    }
+                    .see{
+                        top: 1800px;
+                    }
+                    .h{
+                        
+                        left: 150px;
+                      
+                    }
+                    .b{
+                        font-size: 18px;
+                    }
+               
+                
+    }

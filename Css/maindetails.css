@@ -1,0 +1,334 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+   
+    
+}
+:root{
+    -backcolrnav:#F5F5F5;
+
+}
+.Home{
+    position: relative;
+    flex-direction: column;
+ 
+}
+.Navbar{
+    position: relative;
+    flex-direction: row;
+    padding: 10px;
+    height: 40px;
+    background-color: var(-backcolrnav);
+}
+.logo{
+   
+    position: absolute;
+    width: 54.55px;
+    height: 52px;
+    left: 30px;
+    top: 21px;
+}
+.logo2{
+    position: absolute;
+    width: 254px;
+    height: 40px;
+    left: 114.55px;
+    top: 27px;
+   
+    
+    color: #FE8A00;
+}
+.Vector{
+position: absolute;
+left: 93.83%;
+right: 20.83%;
+top:27px;
+bottom: 16.67%;
+}
+.Vector:hover{
+    cursor: pointer;
+}
+.details{
+  
+    display: flex;
+    flex-direction: row;
+}
+.det{
+    padding-top: 10px;
+    padding: 30px;
+    font-size: 25px;
+}
+.p1{
+    font-weight: 50;
+    font-size: 16px;
+    
+}
+.d-p1{
+    padding-top: 20px;
+    line-height: 25px;
+}
+.d-p{
+    font-weight: 90;
+    font-size: 18px;
+    
+}
+.stock
+{
+    padding-top: 20px;
+    font-size: 18px;
+    color: #FE8A00;
+}
+.price{
+    font-weight: 400;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 20px;
+}
+.btn1{
+background-color: #E5E9EB;
+width: 51px;
+height: 44px;
+border: none;
+font-weight: bold;
+font-size: 14px;
+}
+.btn1:hover{
+ 
+    background-color:  #FE8A00;
+    cursor: pointer;
+}
+.s{
+      padding-top: 20px;
+    font-size: 18px;
+}
+.im{
+    padding: 40px;
+}
+.im img{
+    width: 689.75px;
+    height: 715.34px;
+    border-radius: 30px;
+}
+.im:hover{
+  
+    transform:  translate(10px,10px);
+}
+.card{
+    padding-top: 30px ;
+   
+
+}
+.btn-card{
+color: #FE8A00;
+width: 462px;
+height: 61px;
+left: 849px;
+top: 744px;
+border:  none;
+background: #FFFFFF;
+border-radius: 31.5px;
+font-size: 22px;
+padding-left: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.btn-card:hover{
+    color: black;
+    background-color: #FE8A00;
+    cursor: pointer;
+}
+.add6{
+    padding-left: 180px;
+    padding-top: 20px;
+    display: none;
+   }
+
+@media (max-width:767px) {
+  
+    .logo{
+       
+        position: absolute;
+        width: 30.55px;
+        height: 35px;
+        left: 20px;
+        top: 21px;
+    }
+    .logo2{
+        position: absolute;
+        width: 150px;
+        height: 30px;
+        left: 65.55px;
+        top: 27px;
+       
+        
+        color: #FE8A00;
+    }
+   
+    .Vector{
+   
+    left: 85.83%;
+    right: 20.83%;
+    top:25px;
+    bottom: 16.67%;
+    }
+    .details{
+        flex-direction: column;
+
+    }
+  
+    .im{
+       
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding-bottom: 5px;
+    }
+    .im img{
+        width: 340.75px;
+        height: 425.34px;
+        border-radius: 30px;
+    }
+    .title{
+        margin: 10px;
+        font-size: 35px;
+    }
+    .price{
+        margin: 10px;
+        font-size: 32px;
+    }
+    .stock
+{  margin: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+    .det{
+    padding-top: 1px;
+       text-align:start;
+        font-size: 23px;
+      padding-top: -30px;
+    }
+    .p1{
+        font-weight: 50;
+        font-size: 20px;
+        margin-left: 10px;
+        
+    }
+    .d-p1{
+        padding-top: 5px;
+        margin-left: 10px;
+    }
+    .d-p{
+        font-weight: 90;
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    .card{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn-card{
+   
+    width: 300px;
+    height: 61px;
+    left: 849px;
+    top: 744px;
+    font-size: 24px;
+    padding-left: 60px;
+    }
+    .add6{
+        padding-left: 130px;
+        padding-top: 20px;
+        display: none;
+       }}
+    @media (min-width:768px)and (max-width:1023px) {
+     
+        .details{
+            flex-direction: column;
+    
+        }
+        .im{
+           
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            padding-bottom: 20px;
+        }
+        .im img{
+            width: 650.75px;
+            height: 495.34px;
+            border-radius: 30px;
+        }
+        .title{
+            margin: 20px;
+            font-size: 60px;
+        }
+        .price{
+            margin: 20px;
+            font-size: 50px;
+        }
+        .stock
+    {  margin: 20px;
+        padding-top: 20px;
+        font-size: 45px;
+    
+    }
+        .det{
+        padding-top: 5px;
+           text-align:start;
+            font-size: 40px;
+          padding-top: -30px;
+        }
+        .p1{
+            font-weight: 50;
+            font-size: 40px;
+            margin-left: 10px;
+            
+        }
+        .d-p1{
+            padding-top: 5px;
+            margin-left: 10px;
+            line-height: 50px;
+        }
+        .d-p{
+            font-weight: 90;
+            font-size: 35px;
+            margin-left: 5px;
+        }
+        .card{
+            display: flex;
+            justify-content: center;
+        }
+        .btn1{
+            width: 100px;
+            height: 50px;
+            font-size: 25px;
+        }
+        
+        .btn-card{
+       
+        width: 500px;
+        height: 100px;
+        left: 849px;
+        top: 744px;
+        font-size: 35px;
+        padding-left: 60px;
+        }
+        .add6{
+            padding-left: 250px;
+            padding-top: 20px;
+            display: none;
+           }
+           .s{
+            font-size: 35px;
+           }
+               
+                
+    }
